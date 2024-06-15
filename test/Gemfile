@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem "jekyll", "~> 4.0"
+
+# use local theme gem for testing
+gem "chulapa-jekyll", path: "../"
+
+gem 'jekyll-github-metadata'
+
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "webrick"
+gem 'faraday-retry'
+
