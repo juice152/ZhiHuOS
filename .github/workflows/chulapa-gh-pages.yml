@@ -13,7 +13,7 @@ jobs:
     env:
       JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v4
